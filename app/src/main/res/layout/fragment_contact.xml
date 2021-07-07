@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    tools:context=".fragment.FragmentContact">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/phone_wrapper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/icon_phone"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/icon_phone" />
+
+            <TextView
+                android:id="@+id/textViewPhone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_toEndOf="@id/icon_phone"
+                android:layout_toRightOf="@+id/icon_phone"
+                android:text="+252906215373" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/address_wrapper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/icon_address"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/icon_place" />
+
+            <TextView
+                android:id="@+id/textAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_toEndOf="@id/icon_address"
+                android:layout_toRightOf="@+id/icon_address"
+                android:text="Somalia, Garowe" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/email_wrapper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/icon_email"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/icon_email" />
+
+            <TextView
+                android:id="@+id/textViewEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_toEndOf="@id/icon_email"
+                android:layout_toRightOf="@+id/icon_email"
+                android:text="abdullahi.abdiaziz.hussein@gmail.com" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
